@@ -1,24 +1,41 @@
-# README
+# Rails-Rest-API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a basic RESTful API with Rails 5
 
-Things you may want to cover:
+All you need in order to run this small API:
 
-* Ruby version
+## Install Rails 
+```
+$ gem install rails -v 5.1.2
+```
 
-* System dependencies
+## Clone the repo 
+```
+$ git clone git@github.com:biancavlz/Rails-Rest-API.git
+```
 
-* Configuration
+## Bundle install
+```
+$ bundle install
+```
 
-* Database creation
+## Run migrations
+```
+$ rails db:migrate
+```
 
-* Database initialization
+## Run the rails server
+```
+$ rails s
+```
 
-* How to run the test suite
+## Extras
+In order to test the responses:
 
-* Services (job queues, cache servers, search engines, etc.)
+* You can use POSTMAN chrome extension
 
-* Deployment instructions
+* Or open the rails console terminal for testing inch check if the responses are working
 
-* ...
+```
+$ rails console
+```
