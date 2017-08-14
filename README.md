@@ -34,7 +34,7 @@ In order to test the responses:
 
 * You can use POSTMAN chrome extension
 
-* Or open the rails console terminal for testing inch check if the responses are working
+* Or open the rails console terminal for testing it and check the responses
 
 ```
 $ rails console
