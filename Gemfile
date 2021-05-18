@@ -11,7 +11,7 @@ gem 'rails', '~> 5.2.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 4.3'
 gem "rack", ">= 2.0.6"
 gem "loofah", ">= 2.2.3"
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
